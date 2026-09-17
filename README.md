@@ -25,3 +25,7 @@ Gaussian Naive Bayes для предсказания кредитногорис�
 Небольшой размер выборки, состоящий из 1000 записей влияет на то, что результат чувствителен к разбивке на train/test.
 Дисбаланс классов (70 good/30 bad) занижает recall по миноритарному классу.
 Предположение GaussianNB о независимости признаков нарушено (Credit amount и Duration коррелируют), что ограничивает потолок качества модели.
+
+## Как запустить
+pip install -r requirements.txt
+jupyter notebook bank_scoring_naive_bayes.ipynb
