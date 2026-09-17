@@ -27,5 +27,7 @@ Gaussian Naive Bayes для предсказания кредитногорис�
 Предположение GaussianNB о независимости признаков нарушено (Credit amount и Duration коррелируют), что ограничивает потолок качества модели.
 
 ## Как запустить
+```bash
 pip install -r requirements.txt
 jupyter notebook bank_scoring_naive_bayes.ipynb
+```
